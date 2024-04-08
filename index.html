@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Tech Blogs</title>
+</head>
+
+<body class="con">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="header">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tech-World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/about.html">About</a>
+                    </li>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#section">Web Development</a></li>
+                            <li><a class="dropdown-item" href="#section">Technology</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#section">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success mx-1 px-2" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Welcome to Tech-World</h4>
+                    <p>Technology news, Development & Trends</p>
+                    <button type="button" class="btn btn-primary btn-sm rounded-pill">Technology</button>
+                    <button type="button" class="btn btn-secondary btn-sm rounded-pill">Web Development</button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-pill">Tech-Fun</button>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Welcome to Tech-World</h4>
+                    <p>Technology news, Development & Trends</p>
+                    <button type="button" class="btn btn-primary btn-sm rounded-pill">Technology</button>
+                    <button type="button" class="btn btn-secondary btn-sm rounded-pill">Web Development</button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-pill">Tech-Fun</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Welcome to Tech-World</h4>
+                    <p>Technology news, Development & Trends</p>
+                    <button type="button" class="btn btn-primary btn-sm rounded-pill">Technology</button>
+                    <button type="button" class="btn btn-secondary btn-sm rounded-pill">Web Development</button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-pill">Tech-Fun</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-4" id="section">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary-emphasis text-primary">AI Trends</strong>
+                        <h3 class="mb-0">Technology Boost</h3>
+                        <div class="mb-1 text-body-secondary">April, 4 <i class="fa-solid fa-calendar-days"></i></div>
+                        <p class="card-text mb-auto">In today's rapidly evolving technological landscape, artificial
+                            intelligence (AI) stands out as a transformative force, propelling innovation across various
+                            sectors.</p>
+                        <a href="https://www.themintmagazine.com/the-realities-of-artificial-intelligence/"
+                            target="_blank" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block my-2 mx-2">
+                        <img src="7.jpg" class="bd-placeholder-img rounded my-2 mx-2 img-fluid" width="200" height="250"
+                            alt="" srcset="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em"></text></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success-emphasis text-success">Social Media</strong>
+                        <h3 class="mb-0">Social Nexus</h3>
+                        <div class="mb-1 text-body-secondary">March, 11 <i class="fa-solid fa-calendar-days"></i></div>
+                        <p class="mb-auto">Social media bridges people worldwide, fostering communication,
+                            collaboration, and cultural exchange, transcending borders, and creating a global village of
+                            interconnected individuals.</p>
+                        <a href="https://leadsbridge.com/blog/social-media-trend/" target="_blank"
+                            class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block my-2 mx-2">
+                        <img src="8.jpg" class="bd-placeholder-img rounded my-2 mx-2 img-fluid" width="200" height="250"
+                            alt="" srcset="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em"></text></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary-emphasis text-danger">MERN Stack</strong>
+                        <h3 class="mb-0">Web Development</h3>
+                        <div class="mb-1 text-body-secondary">February, 16 <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <p class="card-text mb-auto">Web development continues to evolve, emphasizing responsiveness,
+                            accessibility, and security. Technologies like JavaScript frameworks (React, Angular, Vue),
+                            serverless architecture, and progressive web apps dominate.</p>
+                        <a href="https://ellow.io/mern-stack-development/" target="_blank"
+                            class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block my-2 mx-2">
+                        <img src="9.jpg" class="bd-placeholder-img rounded my-2 mx-2 img-fluid" width="200" height="250"
+                            alt="" srcset="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em"></text></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success-emphasis text-secondary">Python</strong>
+                        <h3 class="mb-0">Learn Python</h3>
+                        <div class="mb-1 text-body-secondary">January, 5 <i class="fa-solid fa-calendar-days"></i></div>
+                        <p class="mb-auto">Python continues to dominate various domains including web development, data
+                            science, artificial intelligence, and automation due to its versatility, simplicity, and
+                            extensive library ecosystem, remaining a top choice for programmers.</p>
+                        <a href="https://www.kellton.com/kellton-tech-blog/top-python-development-trends"
+                            target="_blank" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block my-2 mx-2">
+                        <img src="python.jpg" class="bd-placeholder-img rounded my-2 mx-2 img-fluid" width="200"
+                            height="250" alt="" srcset="">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em"></text></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid py-5 " id="footer">
+        <div class="row d-flex justify-content-around mx-5">
+
+            <div class="col-6 col-md mx-5">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Cool stuff</a></li>
+                    <li><a class="link-secondary" href="#">Trending</a></li>
+                    <li><a class="link-secondary" href="#">Technology</a></li>
+                    <li><a class="link-secondary" href="#">Development</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md ">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="https://google.com/" target="_blank">Google</a></li>
+                    <li><a class="link-secondary" href="https://chat.openai.com/" target="_blank">Chat GPT</a></li>
+                    <li><a class="link-secondary" href="https://www.bing.com/" target="_blank">Technology Trends</a>
+                    </li>
+                    <li><a class="link-secondary" href="https://images.unsplash.com/" target="_blank">Source
+                            Unsplash</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Business</a></li>
+                    <li><a class="link-secondary" href="#">Education</a></li>
+                    <li><a class="link-secondary" href="#">Government</a></li>
+                    <li><a class="link-secondary" href="#">Technology</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="https://www.linkedin.com/in/rahul-bhagat-bb0863248/">Rahul
+                            Bhagat </a></li>
+                    <li><a class="link-secondary" href="#">Kolkata, India <i class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                    <li><a class="link-secondary" href="#">Privacy Policies</a></li>
+                    <li><a class="link-secondary" href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                    viewBox="0 0 24 24">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path
+                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+                    </path>
+                </svg>
+                <small class="d-block mb-3 text-muted">© 2024–2025</small>
+                <ul class="list-unstyled text-small list-group list-group-horizontal ">
+                    <li class="mx-2"><a class="link-secondary"
+                            href="https://www.linkedin.com/in/rahul-bhagat-bb0863248/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="mx-2"><a class="link-secondary"
+                            href="https://www.facebook.com/profile.php?id=100022712151120" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a></li>
+                    <li class="mx-2"><a class="link-secondary" href="https://www.instagram.com/r_a_h_u_l__03__/"
+                            target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                <span>Copyright © 2024 Tech-World, Inc.</span>
+                <div>All rights reserved.</div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+</body>
+
+</html>
